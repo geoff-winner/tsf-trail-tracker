@@ -9,7 +9,7 @@ const Table = data => {
     return trail === 'Open' ? 'trail-status-good' : '';
   }
   return (
-      <table className="table table-striped table-dark table-hover">
+      <table className="table table-striped table-dark table-hover table-responsive-xl">
         <thead>
         <tr>
           <th scope="col">Trail #</th>
