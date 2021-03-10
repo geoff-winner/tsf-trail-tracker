@@ -34,7 +34,7 @@ const trailData = [
   {
     trailNumber: 4,
     trailName: 'Powerline',
-    trailDifficulty: 'Green/Blue',
+    trailDifficulty: 'Green - Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
     trailCondition: 'Clear',
@@ -1141,6 +1141,14 @@ const trailData = [
     trailCondition: 'Clear',
   },
   {
+    trailNumber: 138,
+    trailName: 'Yellow Post',
+    trailDifficulty: 'Blue',
+    lastVisitedDate: '03/08/2021',
+    trailStatus: 'Open',
+    trailCondition: 'Needs clearing',
+  },
+  {
     trailNumber: 140,
     trailName: 'Angry Elf',
     trailDifficulty: 'Black',
@@ -1149,8 +1157,16 @@ const trailData = [
     trailCondition: 'Needs major clearing, unrideable',
   },
   {
+    trailNumber: 141,
+    trailName: 'Parking Lot East',
+    trailDifficulty: 'Black',
+    lastVisitedDate: '03/08/2021',
+    trailStatus: 'Open',
+    trailCondition: 'Needs clearing',
+  },
+  {
     trailNumber: 142,
-    trailName: 'Steep Mother Effer',
+    trailName: 'The Drop',
     trailDifficulty: 'Double Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
@@ -1167,6 +1183,14 @@ const trailData = [
   {
     trailNumber: 144,
     trailName: 'Bungee Jump',
+    trailDifficulty: 'Double Black',
+    lastVisitedDate: '03/08/2021',
+    trailStatus: 'Open',
+    trailCondition: 'Needs clearing',
+  },
+  {
+    trailNumber: 145,
+    trailName: 'Duanes',
     trailDifficulty: 'Double Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
