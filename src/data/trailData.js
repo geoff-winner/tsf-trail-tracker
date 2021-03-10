@@ -37,7 +37,7 @@ const trailData = [
     trailDifficulty: 'Green/Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: '4b',
@@ -340,7 +340,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Good',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 32,
@@ -371,7 +371,7 @@ const trailData = [
     trailDifficulty: 'Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Closed',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Needs clearing, mulitple large trees down',
   },
   {
     trailNumber: 36,
@@ -379,7 +379,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing, mulitple large trees down',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 37,
@@ -387,7 +387,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Needs clearing, clear enough for Class 3',
   },
   {
     trailNumber: 38,
@@ -403,7 +403,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear, damaged bridge rails',
   },
   {
     trailNumber: 41,
@@ -411,7 +411,7 @@ const trailData = [
     trailDifficulty: 'Blue - Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: '41f',
@@ -419,7 +419,7 @@ const trailData = [
     trailDifficulty: 'Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 43,
@@ -467,7 +467,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 49,
@@ -531,7 +531,7 @@ const trailData = [
     trailDifficulty: 'Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 57,
@@ -635,7 +635,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 72,
@@ -683,7 +683,7 @@ const trailData = [
     trailDifficulty: 'Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 78,
@@ -731,7 +731,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 84,
@@ -739,7 +739,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 86,
@@ -763,7 +763,7 @@ const trailData = [
     trailDifficulty: 'Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 89,
@@ -787,7 +787,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 93,
@@ -795,7 +795,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 94,
@@ -827,7 +827,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 98,
@@ -843,7 +843,7 @@ const trailData = [
     trailDifficulty: 'Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 100,
@@ -994,7 +994,7 @@ const trailData = [
     trailDifficulty: 'Blue - Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 119,
@@ -1026,7 +1026,7 @@ const trailData = [
     trailDifficulty: 'Black - Double Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 123,
@@ -1122,7 +1122,7 @@ const trailData = [
     trailDifficulty: 'Green - Blue',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 136,
@@ -1138,7 +1138,7 @@ const trailData = [
     trailDifficulty: 'Black',
     lastVisitedDate: '03/08/2021',
     trailStatus: 'Open',
-    trailCondition: 'Needs clearing',
+    trailCondition: 'Clear',
   },
   {
     trailNumber: 140,
