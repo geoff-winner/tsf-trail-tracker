@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import trailData from './data/trailData';
+import Table from './components/table/Table';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="app-header">
+        TSF Trail Status
       </header>
+      <h3 className="app-header-link">
+        <a href="https://www.oregon.gov/odf/recreation/guides/tsf-ohv-mapside-map.pdf">
+          Tillamook Trail Map (Non-Georeferenced)
+        </a>
+      </h3>
+      <h3 className="app-header-link">
+        <a href="https://www.oregon.gov/odf/recreation/guides/tsf-ohv-georeferenced-trail-map.pdf">
+          Tillamook Trail Map (Georeferenced)
+        </a>
+      </h3>
+      <Table data={trailData}/>
     </div>
   );
 }
