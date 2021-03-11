@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div className="app">
       <header className="app-header">
-        TSF Trail Status
+        TSF Trail Tracker
       </header>
       <h3 className="app-header-link">
         <a href="https://www.oregon.gov/odf/recreation/guides/tsf-ohv-mapside-map.pdf">
