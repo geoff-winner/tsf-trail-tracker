@@ -1,13 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+
 import './Table.css';
 
-const Table = data => {
+const Table = () => {
   const tableRowColor = trail => {
     return trail === 'Closed' ? 'bg-danger' : '';
   }
   const tableCellColor = trail => {
     return trail === 'Open' ? 'trail-status-good' : '';
   }
+  const trailData = useSelector(state => state.app.trailConditions);
   return (
       <table className="table table-striped table-dark table-hover table-responsive-xl">
         <thead>
@@ -21,7 +24,7 @@ const Table = data => {
         </tr>
         </thead>
         <tbody>
-        {data.data.map((trail, index) => {
+        {trailData.map((trail, index) => {
           return (
             <tr key={index + 1} className={tableRowColor(trail.trailStatus)}>
               <th key={index + 2}>{trail.trailNumber}</th>
