@@ -1,3 +1,5 @@
 export const initialState = {
-  trailConditions: [],
+  app: {
+    trailConditions: [],
+  },
 };

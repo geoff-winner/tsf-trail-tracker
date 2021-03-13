@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 
+import * as appActions from '../../modules/app/actions/index';
 import './Table.css';
 
 const Table = () => {
+  const dispatch = useDispatch();
   const tableRowColor = trail => {
     return trail === 'Closed' ? 'bg-danger' : '';
   }
@@ -11,7 +13,33 @@ const Table = () => {
     return trail === 'Open' ? 'trail-status-good' : '';
   }
   const [value, setValue] = useState('');
+  // const [inEditMode, setInEditMode] = useState({
+  //   status: false,
+  //   rowKey: null
+  // });
+  // const [trailNumber, setTrailNumber] = useState('');
+  // const [trailName, setTrailName] = useState('');
+  // const [trailDifficulty, setTrailDifficulty] = useState('');
+  // const [trailStatus, setTrailStatus] = useState('');
+  // const [trailCondition, setTrailCondition] = useState('');
+  // const [lastVisitedDate, setLastVisitedDate] = useState('');
+
+  // const onEdit = ({id, currentUnitPrice}) => {
+  //   setInEditMode({
+  //     status: true,
+  //     rowKey: id
+  //   })
+  //   setTrailNumber(currentUnitPrice);
+  // }
   const trailData = useSelector(state => state.app.trailConditions);
+  const updateTrailValue = (trailNumber, trailValueBeingUpdated, newValue) => {
+    dispatch(appActions.updateTrailConditions(
+      trailNumber,
+      trailValueBeingUpdated,
+      newValue,
+      )
+    );
+  };
   return (
       <>
         <div className="table-search">
@@ -23,6 +51,7 @@ const Table = () => {
             placeholder="Search by trail name"
           />
         </div>
+        <button onClick={() => updateTrailValue()}>Update Trail Data</button>
         <table className="table table-striped table-dark table-hover table-responsive-xl">
           <thead>
           <tr>
