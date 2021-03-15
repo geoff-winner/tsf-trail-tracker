@@ -1,0 +1,8 @@
+.login-form-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-form-cancel {
+    margin-left: 45px;
+}

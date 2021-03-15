@@ -1,3 +1,4 @@
+import React from 'react';
 import firebase from 'firebase/app';
 import 'firebase/analytics';
 import { useDispatch } from 'react-redux';
@@ -5,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import * as appActions from './actions/index';
 import './App.css';
 import Table from '../../components/table/Table';
+import LoginForm from '../../components/login/Login';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -24,12 +26,11 @@ firebase.analytics();
 
 const App = () => {
   const dispatch = useDispatch();
-  dispatch(appActions.getTrailConditions())
+  dispatch(appActions.getTrailConditions());
   return (
     <div className="app">
-      <header className="app-header">
-        TSF Trail Tracker
-      </header>
+      <LoginForm />
+      <header className="app-header">TSF Trail Tracker</header>
       <h3 className="app-header-link">
         <a href="https://www.oregon.gov/odf/recreation/guides/tsf-ohv-mapside-map.pdf">
           Tillamook Trail Map (Non-Georeferenced)
@@ -43,6 +44,6 @@ const App = () => {
       <Table />
     </div>
   );
-}
+};
 
 export default App;

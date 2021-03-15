@@ -18,3 +18,8 @@
   height: 50px;
   padding: 10px;
 }
+.table-cell {
+  text-align: center;
+  vertical-align: center;
+}
+
