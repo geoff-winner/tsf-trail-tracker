@@ -5,3 +5,21 @@
 .trail-status-good {
   background-color: green;
 }
+
+.table-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.table-search-input {
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+}
+.table-cell {
+  text-align: center;
+  vertical-align: center;
+}
+
